@@ -1,23 +1,56 @@
 /*
 Folha de estilos
 */
+/* Importação Google Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/* CSS Reset */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+/* Layout */
+.Container{
+    margin: 0 auto;
+    background-color: #7f0;
+}
+
+/*Smartphone  Landscape*/
+@media (min-width: 576px){
+    body{
+        background-color: #0ff;
+    }
+     /* Layout */
+     .Container{
+        max-width: 540px;
+    }
+}
 
 /*Tablet Portrait*/
 @media (min-width: 768px){
     body{
         background-color: #ff0;
     }
-}
-/*Smartphone  Landscape*/
-@media (min-width: 576px){
-    body{
-        background-color: #0ff;
+      /* Layout */
+      .Container{
+        max-width: 720px;
     }
 }
+
 /*TAblet Landscape*/
 @media (min-width: 992px){
     body{
         background-color: #ff6600;
+    }
+      /* Layout */
+      .Container{
+        max-width: 960px;
     }
 }
 
@@ -26,9 +59,8 @@ Folha de estilos
     body{
         background-color: #ff0000;
     }
+      /* Layout */
+      .Container{
+        max-width: 1140px;
+    }
 }
-
-/*Tablet Portrait*/
-
-
-
