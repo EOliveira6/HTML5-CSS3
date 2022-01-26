@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 e CSS3 - Site</title>
-    <meta name = "description" content ="Exercício prático de desenvolvimento passo a passo do zero até a hospedagem de um site onde page moderno e responsivo, baseado nas aulas do professor José de Assis">
-<link rel ="icon" href = "img/favicon.png">
-<link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Exercício prático de desenvolvimento passo a passo do zero até a hospedagem de um site onde page moderno e responsivo, baseado nas aulas do professor José de Assis">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Cabeçalho -->
-    <header>
-<div class="Container">
-
-</div>
+    <header id= "inicio">
+        <div class="Container Flex">
+            <div id="logo">
+                <img src="img/logo.png" alt="hal 9000">
+            </div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check">&#x268C;</label>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#conteudo">Conteúdo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
     </header>
     <!-- Destaque -->
     <main>
@@ -24,7 +38,7 @@
         </div>
     </main>
     <!-- Sobre -->
-    <section>
+    <section id = "sobre">
         <div class="container">
             <h2>Aprender na prática</h2>
         </div>
@@ -42,7 +56,7 @@
         </div>
     </section>
     <!-- Conteúdo -->
-    <section>
+    <section id = "conteudo">
         <div class="container">
             <h2>Conteúdo</h2>
             <h3>HTLM5</h3>
@@ -51,9 +65,11 @@
         </div>
     </section>
     <!-- Rodapé -->
-    <footer>
-    <div class="container">
+    <footer id = "contato">
+        <div class="container">
 
-    </div>
+        </div>
     </footer>
+    <a href = "#inicio" id = "topo"><img src = "img/topo.png" alt="topo do site"></a>
+</body>
 </html>
